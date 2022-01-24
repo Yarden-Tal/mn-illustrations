@@ -1,3 +1,8 @@
+// Palette Colors:
+$chosen-purple: #564953;
+$chosen-pink: #d7aba0;
+$chosen-lime: #968e4e;
+
 html {
   box-sizing: border-box;
 }
@@ -8,13 +13,13 @@ html {
 }
 
 p {
-  color: white;
+  color: $chosen-purple;
 }
 
 body {
-  background-image: url("../images/background-image.png");
+  background-image: url("../images/background-image2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: right;
 }

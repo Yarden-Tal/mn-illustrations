@@ -9,13 +9,13 @@ html {
 }
 
 p {
-  color: white;
+  color: #564953;
 }
 
 body {
-  background-image: url("../images/background-image.png");
+  background-image: url("../images/background-image2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: right;
 }

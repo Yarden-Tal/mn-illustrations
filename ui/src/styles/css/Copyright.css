@@ -1,10 +1,14 @@
 .copyright {
-  margin: 0 auto;
-  color: #968e4e;
+  position: absolute;
+  top: 95%;
+  color: #f4cec4;
   font-weight: bold;
   font-family: "Dosis";
 }
 .copyright__link {
   text-decoration: none;
-  color: #4c4a33;
+  color: #4c4a33cb;
+}
+.copyright__link:hover {
+  color: white;
 }

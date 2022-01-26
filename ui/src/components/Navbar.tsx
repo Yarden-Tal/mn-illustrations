@@ -1,27 +1,43 @@
 import React from "react";
 // Styles
-import "../styles/Navbar.module.css";
+import "../styles/css/Navbar.css";
 // Routing
 import { Link } from "react-router-dom";
 import LogoOnPage from "./LogoOnPage";
 
 const Navbar = (): JSX.Element => {
   return (
-    <nav>
+    <nav className="main-nav">
       <LogoOnPage />
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/portfolio">Portfolio</Link>
-        </li>
-        <li>
-          <Link to="/prices">Prices</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
+      <ul className="main-nav__list">
+        <div className="li-container">
+          <li className="main-nav__list__item">
+            <Link className="main-nav__list__item__link" to="/">
+              HOME
+            </Link>
+          </li>
+        </div>
+        <div className="li-container">
+          <li className="main-nav__list__item">
+            <Link className="main-nav__list__item__link" to="/portfolio">
+              PORTFOLIO
+            </Link>
+          </li>
+        </div>
+        <div className="li-container">
+          <li className="main-nav__list__item">
+            <Link className="main-nav__list__item__link" to="/prices">
+              PRICES
+            </Link>
+          </li>
+        </div>
+        <div className="li-container">
+          <li className="main-nav__list__item">
+            <Link className="main-nav__list__item__link" to="/about">
+              ABOUT
+            </Link>
+          </li>
+        </div>
       </ul>
     </nav>
   );

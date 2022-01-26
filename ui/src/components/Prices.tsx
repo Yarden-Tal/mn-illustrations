@@ -4,7 +4,7 @@ import priceListImg from "../images/price-list.png";
 // TS
 import { IImageProperties } from "../ts/interfaces";
 // Styles
-import "../styles/Prices.module.css";
+import "../styles/css/Prices.css";
 
 const Prices = (): JSX.Element => {
   const logoProperties: IImageProperties = {

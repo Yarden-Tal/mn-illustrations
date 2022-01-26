@@ -1,0 +1,7 @@
+.logo-img-container {
+  width: 20rem;
+  display: flex;
+  & .logo-img {
+    max-width: 100%;
+  }
+}

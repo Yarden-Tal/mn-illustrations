@@ -1,9 +1,7 @@
-div > img {
+.logo-img-container {
   width: 20rem;
   display: flex;
 }
-
-img {
-  width: 200px;
+.logo-img-container .logo-img {
   max-width: 100%;
 }

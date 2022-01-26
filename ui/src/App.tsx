@@ -3,12 +3,13 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 // Components
 import About from "./components/About";
+import Copyright from "./components/Copyright";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Prices from "./components/Prices";
 // Styles
-import "./styles/App.module.css";
+import "./styles/css/App.css";
 
 const App = (): JSX.Element => {
   return (
@@ -20,6 +21,7 @@ const App = (): JSX.Element => {
         <Route path="/prices" element={<Prices />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <Copyright />
     </div>
   );
 };

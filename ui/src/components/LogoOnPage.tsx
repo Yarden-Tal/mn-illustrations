@@ -3,7 +3,7 @@ import React from "react";
 import { IImageProperties } from "../ts/interfaces";
 import logoImg from "../images/logo-on-page2.png";
 // Styles
-import "../styles/LogoOnPage.module.css";
+import "../styles/css/LogoOnPage.css";
 
 const LogoOnPage = (): JSX.Element => {
   const logoProperties: IImageProperties = {
@@ -12,7 +12,7 @@ const LogoOnPage = (): JSX.Element => {
   };
 
   return (
-    <div>
+    <div className="logo-img-container">
       <img
         className="logo-img"
         src={logoProperties.src}

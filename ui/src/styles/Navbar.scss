@@ -1,0 +1,43 @@
+@use "variables";
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 17%;
+  left: 13%;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    &__item {
+      position: relative;
+      right: 7px;
+      bottom: 4px;
+      text-align: center;
+      text-decoration: none;
+      list-style-type: none;
+      padding: 8px 30px;
+      background-color: variables.$chosen-pink;
+      border: 2px solid variables.$chosen-purple;
+      border-radius: 25px;
+      box-shadow: 5px 5px 15px 5px rgb(255 56 112 / 0%), 6px 4px 0px 0px #ffffff;
+      &__link {
+        font-family: "Dosis", sans-serif;
+        font-weight: bold;
+        color: variables.$chosen-purple;
+        text-decoration: none;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.li-container {
+  border: 2px solid variables.$chosen-purple;
+  width: 143px;
+  border-radius: 25px;
+}

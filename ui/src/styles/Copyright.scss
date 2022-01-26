@@ -1,6 +1,12 @@
+@use "variables";
+
 .copyright {
+  margin: 0 auto;
+  color: variables.$chosen-lime;
+  font-weight: bold;
   font-family: "Dosis";
   &__link {
     text-decoration: none;
+    color: #4c4a33;
   }
 }

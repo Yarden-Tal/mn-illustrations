@@ -1,17 +1,17 @@
-.main-nav {
+.mobile-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  top: 17%;
-  left: 13%;
+  position: fixed;
+  top: 10vh;
+  left: 20vw;
 }
-.main-nav__list {
+.mobile-nav__list {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
 }
-.main-nav__list__item {
+.mobile-nav__list__item {
   position: relative;
   right: 7px;
   bottom: 4px;
@@ -24,13 +24,13 @@
   border-radius: 25px;
   box-shadow: 5px 5px 15px 5px rgba(255, 56, 112, 0), 7px 5px 0px 0px #ffffff;
 }
-.main-nav__list__item__link {
+.mobile-nav__list__item__link {
   font-family: "Dosis", sans-serif;
   font-weight: bold;
   color: #564953;
   text-decoration: none;
 }
-.main-nav__list__item__link:hover {
+.mobile-nav__list__item__link:hover {
   color: white;
 }
 
@@ -40,19 +40,8 @@
   border-radius: 25px;
 }
 
-@media only screen and (max-width: 1110px) {
-  .main-nav {
-    top: 15%;
-    left: 5%;
-  }
-}
-@media only screen and (max-width: 1020px) {
-  .main-nav {
-    left: 0%;
-  }
-}
-@media only screen and (max-width: 850px) {
-  .main-nav {
+@media only screen and (min-width: 850px) {
+  .mobile-nav {
     visibility: hidden;
   }
 }

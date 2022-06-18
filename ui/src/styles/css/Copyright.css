@@ -1,7 +1,10 @@
 .copyright {
-  position: absolute;
-  top: 95%;
+  position: fixed;
+  padding: 0.25em;
+  border-radius: 10px;
+  bottom: 2vh;
   color: #f4cec4;
+  background-color: rgba(255, 255, 255, 0.068);
   font-weight: bold;
   font-family: "Dosis";
 }

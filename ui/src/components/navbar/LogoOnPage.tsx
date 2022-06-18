@@ -1,9 +1,9 @@
 import React from "react";
 // TypeScript
-import { IImageProperties } from "../ts/interfaces";
-import logoImg from "../images/logo-on-page2.png";
+import { IImageProperties } from "../../ts/interfaces";
+import logoImg from "../../images/logo-on-page2.png";
 // Styles
-import "../styles/css/LogoOnPage.css";
+import "../../styles/css/LogoOnPage.css";
 
 const LogoOnPage = (): JSX.Element => {
   const logoProperties: IImageProperties = {

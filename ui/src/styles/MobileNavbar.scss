@@ -1,12 +1,12 @@
 @use "variables";
 
-.main-nav {
+.mobile-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  top: 17%;
-  left: 13%;
+  position: fixed;
+  top: 10vh;
+  left: 20vw;
   &__list {
     display: flex;
     flex-direction: column;
@@ -43,23 +43,10 @@
   border-radius: 25px;
 }
 
-// Menu Responsivity
+// Mobile menu Responsivity
 
-@media only screen and (max-width: 1110px) {
-  .main-nav {
-    top: 15%;
-    left: 5%;
-  }
-}
-
-@media only screen and (max-width: 1020px) {
-  .main-nav {
-    left: 0%;
-  }
-}
-
-@media only screen and (max-width: 850px) {
-  .main-nav {
+@media only screen and (min-width: 850px) {
+  .mobile-nav {
     visibility: hidden;
   }
 }

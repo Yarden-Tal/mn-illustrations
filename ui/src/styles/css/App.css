@@ -1,5 +1,11 @@
 html {
   box-sizing: border-box;
+  overflow: hidden;
+  background-image: url("../../images/background-image2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right;
 }
 
 *,
@@ -10,12 +16,4 @@ html {
 
 p {
   color: #564953;
-}
-
-body {
-  background-image: url("../../images/background-image2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: right;
 }
